@@ -63,7 +63,7 @@ public class ApiSteps {
                 .extract()
                 .response().as(StannayaResponse.class);
     }
-    @Step ("Вход из системы")
+    @Step ("Выход из системы")
     public StannayaResponse getLogout() {
         return given()
                 .log().all()
